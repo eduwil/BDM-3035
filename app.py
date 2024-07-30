@@ -93,5 +93,5 @@ def api_prediction_post():
           return jsonify(response), status_code
           
 # defining the context for debugging
-# if __name__ == '__main__':
-#    app.run(debug=True)
+if __name__ == '__main__':
+   app.run(debug=True)
