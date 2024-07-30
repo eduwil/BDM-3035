@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 CORS(app)
 
-wsgi_app = app.wsgi_app
+# wsgi_app = app.wsgi_app
 
 # loading h5 model
 model = load_model('facetracker.h5')
